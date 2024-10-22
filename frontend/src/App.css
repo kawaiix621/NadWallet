@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  background-color: rgb(31, 29, 34);
+}
+
+
+h3{
+  color: rgb(255, 255, 255);
+}
+
+p{
+  color: rgba(240, 248, 255, 0.747);
+}
+
+.btwdiv{
+  width: 100vw;
+  display: flex;
+  position:fixed;
+  justify-content: right;
+  right: 5vw;
+  bottom:5vh;
+}
+
+.balance{
+  color: rgb(0, 255, 170);
+  font-size:40px;
+  position: fixed;
+  top:0px;
+  left:10px;
+  background: rgba(0, 0, 0, 0.062); /* Semi-transparent background */
+  backdrop-filter: blur(1px); /* Blurry glass effect */
+
+}
+button{
+  padding:15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: rgba(0, 0, 0, 0.062); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blurry glass effect */
+  border: 2px solid #ffffff;
+  color: aliceblue;
+  margin: 5px;
+  border-radius: 100px;
+
+}
+button:hover {
+  background-color: rgba(245, 245, 245, 0.9);
+  color: #000000;
+  transform: scale(1.05);
+}
+
+
+
+/* Style the table */
+.transaction-table {
+  width: 80vw;
+  margin: 10vw;
+}
+
+/* Add styling to table headers */
+.transaction-table th {
+  background-color: #00000046;
+  color: rgb(233, 233, 233);
+  padding: 10px;
+  font-size: small;
+  text-align: left;
+  border: none;
+}
+
+/* Style table rows */
+.transaction-table td {
+  padding: 5px;
+  border: 5px solid #49090900;
+}
+
+/* Zebra striping */
+.transaction-table tr {
+  background-color: #00000000;
+  color: #ffffff;
+}
+
+/* Hover effect */
+.transaction-table tr:hover {
+  background-color: rgb(0, 255, 170);
+  color: black;
+}
